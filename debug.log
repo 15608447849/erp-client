@@ -1,0 +1,1662 @@
+[0811/115008:VERBOSE1:pref_proxy_config_tracker_impl.cc(218)] 000000002C3EFF70: set chrome proxy config service to 000000002C3F1CA0
+[0811/115008:VERBOSE1:pref_proxy_config_tracker_impl.cc(355)] 000000002C3EFF70: Done pushing proxy to UpdateProxyConfig
+[0811/115009:ERROR:browser_gpu_channel_host_factory.cc(133)] Failed to com.erp.launch GPU process.
+[0811/115009:VERBOSE1:webrtc_internals.cc(58)] Could not get the download directory.
+[0811/115009:ERROR:browser_gpu_channel_host_factory.cc(133)] Failed to com.erp.launch GPU process.
+[0811/115009:INFO:CONSOLE(308)] "JNB ok", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/_native.js (308)
+[0811/115009:VERBOSE1:cookie_monster.cc(2326)] WARNING: Unsupported cookie scheme: file
+[0811/115009:INFO:CONSOLE(1)] "Unhandled promise rejection", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/js/chunk-vendors.d5253bc8.js (1)
+[0811/115009:INFO:CONSOLE(1)] "[object Object]", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/js/chunk-4c4ab891.0e61c6ca.js (1)
+[0811/115011:INFO:CONSOLE(1)] "[object Object]", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/js/chunk-4c4ab891.0e61c6ca.js (1)
+[0811/115014:VERBOSE1:cookie_monster.cc(2326)] WARNING: Unsupported cookie scheme: file
+[0811/115014:VERBOSE1:cookie_monster.cc(2326)] WARNING: Unsupported cookie scheme: file
+[0811/115028:VERBOSE1:cookie_monster.cc(2326)] WARNING: Unsupported cookie scheme: file
+[0811/115028:INFO:CONSOLE(1)] "[object Object]", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/js/chunk-4c4ab891.0e61c6ca.js (1)
+[0811/115028:INFO:CONSOLE(1)] "[object Object]", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/js/chunk-4c4ab891.0e61c6ca.js (1)
+[0811/115238:VERBOSE1:component_updater_service.cc(90)] CrxUpdateService stopping
+[0811/115238:VERBOSE1:statistics_recorder.cc(350)] Collections of all histograms
+Histogram: Accessibility.InvertedColors recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.ManuallyEnabled recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.State recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinAudioDescription recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinJAWS recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinNVDA recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinSAToGo recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinScreenReader recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinStickyKeys recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinZoomText recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: AsyncDNS.ConfigChange recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.ConfigParseDuration recorded 1 samples, average = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: AsyncDNS.ConfigParseResult recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.ConfigParseWin recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: AsyncDNS.HaveDnsConfig recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.HostParseResult recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.HostsChange recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.HostsParseDuration recorded 1 samples, average = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: AsyncDNS.HostsParseWin recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: AsyncDNS.HostsSize recorded 1 samples, average = 143.0 (flags = 0x1)
+0    ... 
+113  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+149  ... 
+
+Histogram: AsyncDNS.NameServersType recorded 1 samples, average = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: AsyncDNS.WatchStatus recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Aura.CreatedGpuBrowserCompositor recorded 5 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (5 = 100.0%)
+1  ... 
+
+Histogram: CertificateType2.BR.Intermediate.RSA recorded 2 samples, average = 2048.0 (flags = 0x1)
+0     ... 
+2048  ------------------------------------------------------------------------O (2 = 100.0%) {0.0%}
+2049  ... 
+
+Histogram: CertificateType2.BR.Leaf.RSA recorded 1 samples, average = 2048.0 (flags = 0x1)
+0     ... 
+2048  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2049  ... 
+
+Histogram: CertificateType2.BR.Root.RSA recorded 1 samples, average = 2048.0 (flags = 0x1)
+0     ... 
+2048  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2049  ... 
+
+Histogram: ChildProcess.Disconnected2 recorded 2 samples, average = 7.5 (flags = 0x1)
+0  ... 
+6  ------------------------------------------------------------------------O (1 = 50.0%) {0.0%}
+7  ... 
+9  ------------------------------------------------------------------------O (1 = 50.0%) {50.0%}
+10 ... 
+
+Histogram: ChildProcessSecurityPolicy.PerChildFilePermissions recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Compositing.Browser.DisplayListRecordingSource.UpdateInvalidatedAreaPerMs recorded 4 samples, average = 2601377.3 (flags = 0x1)
+0        ------------------------------------------------------------------------O (1 = 25.0%)
+1        ... 
+1000000  -------------------------------------------O                              (3 = 75.0%) {25.0%}
+
+Histogram: Compositing.Browser.DisplayListRecordingSource.UpdateUs recorded 4 samples, average = 61.0 (flags = 0x1)
+0   O                                                                         (0 = 0.0%)
+1   ------------------------------------------------------------------------O (1 = 25.0%) {0.0%}
+2   ... 
+37  --------------O                                                           (1 = 25.0%) {25.0%}
+49  ... 
+86  -----------------------------O                                            (2 = 50.0%) {50.0%}
+113 ... 
+
+Histogram: Compositing.Browser.LayerTreeImpl.CalculateDrawPropertiesUs recorded 4 samples, average = 19.0 (flags = 0x1)
+0   ... 
+9   ------------------------------------------------------------------------O (2 = 50.0%) {0.0%}
+12  ... 
+28  -------------------------------------------O                              (2 = 50.0%) {50.0%}
+37  ... 
+
+Histogram: Compositing.Browser.PictureMemoryUsageKb recorded 4 samples, average = 8.0 (flags = 0x1)
+0  ... 
+7  ------------------------------------------------------------------------O (4 = 100.0%) {0.0%}
+9  ... 
+
+Histogram: Compositing.NumActiveLayers recorded 4 samples, average = 7.0 (flags = 0x1)
+0  ... 
+7  ------------------------------------------------------------------------O (4 = 100.0%) {0.0%}
+10 ... 
+
+Histogram: ContentSettings.DefaultCookiesSetting recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: ContentSettings.DefaultImagesSetting recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: ContentSettings.DefaultJavaScriptSetting recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: ContentSettings.DefaultKeygenSetting recorded 1 samples, average = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: ContentSettings.DefaultLocationSetting recorded 1 samples, average = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultMIDISysExSetting recorded 1 samples, average = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultMediaStreamCameraSetting recorded 1 samples, average = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultMediaStreamMicSetting recorded 1 samples, average = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultMouseCursorSetting recorded 1 samples, average = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultNotificationsSetting recorded 1 samples, average = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultPluginsSetting recorded 1 samples, average = 5.0 (flags = 0x1)
+0  ... 
+5  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+6  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: ContentSettings.DefaultPopupsSetting recorded 1 samples, average = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: ContentSettings.DefaultPushMessagingSetting recorded 1 samples, average = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.NumberOfAllowCookiesExceptions recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.NumberOfBlockCookiesExceptions recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.NumberOfExceptions recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.NumberOfSessionOnlyCookiesExceptions recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Cookie.CookieDeleteEquivalent recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.CookieSourceScheme recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.Count recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.DeletionCause recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.EvictedLastAccessMinutes recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.ExpirationDurationMinutes recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.NumberOfLoadedCookies recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Cookie.PriorityBlockingTime recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Cookie.PriorityLoadCount recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: Cookie.TimeBlockedOnLoad recorded 1 samples, average = 29.0 (flags = 0x1)
+0   ... 
+26  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+32  ... 
+
+Histogram: Cookie.TimeInitializeDB recorded 1 samples, average = 29.0 (flags = 0x1)
+0   ... 
+26  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+32  ... 
+
+Histogram: Cookie.TimeInitializeDomainMap recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Cookie.TimeKeyLoadDBQueueWait recorded 1 samples, average = 29.0 (flags = 0x1)
+0   ... 
+26  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+32  ... 
+
+Histogram: Cookie.TimeKeyLoadTotalWait recorded 1 samples, average = 29.0 (flags = 0x1)
+0   ... 
+26  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+32  ... 
+
+Histogram: Cookie.TimeLoad recorded 1 samples, average = 29.0 (flags = 0x1)
+0   ... 
+26  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+32  ... 
+
+Histogram: Cookie.TimeLoadDBQueueWait recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Cookie.TimeLoadDomains recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Cookie.TimeParseDomains recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Cookie.Type recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: DNS.AttemptDiscarded recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: DNS.AttemptSuccess recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: DNS.AttemptSuccessDuration recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DNS.AttemptTimeSavedByRetry recorded 1 samples, average = 3509775.0 (flags = 0x1)
+0        ... 
+3118920  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3600000  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: DNS.EmptyAddressListAndNoError recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DNS.JobQueueTime recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DNS.JobQueueTimeAfterChange recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DNS.JobQueueTimeAfterChange_LOW recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DNS.JobQueueTime_LOW recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DNS.ResolveCategory recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DNS.ResolveSuccess recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DNS.ResolveSuccess_FAMILY_IPV4 recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DNS.TotalTime recorded 27 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (27 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.AllOpenBySize.Miss recorded 20 samples, average = 0.1 (flags = 0x1)
+0  ------------------------------------------------------------------------O (19 = 95.0%)
+1  ----O                                                                     (1 = 5.0%) {95.0%}
+2  ... 
+
+Histogram: DiskCache.0.AllOpenByTotalHours.Miss recorded 20 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (20 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.AllOpenByUseHours.Miss recorded 20 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (20 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.AverageOpenEntries2 recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.BufferBytes recorded 28 samples, average = 650.9 (flags = 0x1)
+0     ... 
+56    -----------------O                                                        (3 = 10.7%) {0.0%}
+80    O                                                                         (0 = 0.0%) {10.7%}
+115   ------O                                                                   (1 = 3.6%) {10.7%}
+165   ------O                                                                   (1 = 3.6%) {14.3%}
+237   -----------O                                                              (2 = 7.1%) {17.9%}
+340   -----------------O                                                        (3 = 10.7%) {25.0%}
+488   -----------O                                                              (2 = 7.1%) {35.7%}
+700   ------------------------------------------------------------------------O (13 = 46.4%) {42.9%}
+1004  -----------------O                                                        (3 = 10.7%) {89.3%}
+1440  ... 
+
+Histogram: DiskCache.0.ByteIORate recorded 4 samples, average = 441.3 (flags = 0x1)
+0     ------------------------------------------------------------------------O (3 = 75.0%)
+1     ... 
+1347  -----O                                                                    (1 = 25.0%) {75.0%}
+1774  ... 
+
+Histogram: DiskCache.0.CreateTime recorded 20 samples, average = 0.3 (flags = 0x1)
+0  ------------------------------------------------------------------------O (15 = 75.0%)
+1  ------------------------O                                                 (5 = 25.0%) {75.0%}
+2  ... 
+
+Histogram: DiskCache.0.Entries recorded 1 samples, average = 20.0 (flags = 0x1)
+0   ... 
+16  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+21  ... 
+
+Histogram: DiskCache.0.EntryAccessRate recorded 4 samples, average = 5.0 (flags = 0x1)
+0   ------------------------------------------------------------------------O (3 = 75.0%)
+1   ... 
+20  ------O                                                                   (1 = 25.0%) {75.0%}
+24  ... 
+
+Histogram: DiskCache.0.Error recorded 2 samples, average = 7.5 (flags = 0x1)
+0   ------------------------------------------------------------------------O (1 = 50.0%)
+1   ... 
+15  ------------------------------------------------------------------------O (1 = 50.0%) {50.0%}
+16  ... 
+
+Histogram: DiskCache.0.GetRankings recorded 407 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (407 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.KeySize recorded 20 samples, average = 77.9 (flags = 0x1)
+0    ... 
+37   ----O                                                                     (1 = 5.0%) {0.0%}
+49   O                                                                         (0 = 0.0%) {5.0%}
+65   ------------------------------------------------------------------------O (18 = 90.0%) {5.0%}
+86   O                                                                         (0 = 0.0%) {95.0%}
+113  ----O                                                                     (1 = 5.0%) {95.0%}
+149  ... 
+
+Histogram: DiskCache.0.MaxOpenEntries2 recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.MaxSize2 recorded 1 samples, average = 320.0 (flags = 0x1)
+0    ... 
+318  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+378  ... 
+
+Histogram: DiskCache.0.NumberOfReferences recorded 4 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (4 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.OpenTime.Miss recorded 20 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (20 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.ShortReport recorded 1 samples, average = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: DiskCache.0.Size2 recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: DiskCache.0.TotalDoomCache recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.TotalDoomRecentEntries recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.TotalFatalErrors recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.TotalIOTime recorded 648 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (639 = 98.6%)
+1  O                                                                         (3 = 0.5%) {98.6%}
+2  O                                                                         (4 = 0.6%) {99.1%}
+3  O                                                                         (2 = 0.3%) {99.7%}
+4  ... 
+
+Histogram: DiskCache.0.TotalTimeNotFull recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.UpdateRank recorded 163 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (163 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.UsedSpace recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.0.WriteTime recorded 608 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (608 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.CreateBlock recorded 61 samples, average = 0.0
+0  ------------------------------------------------------------------------O (61 = 100.0%)
+1  ... 
+
+Histogram: DiskCache.GetFileForNewBlock recorded 61 samples, average = 0.0
+0  ------------------------------------------------------------------------O (61 = 100.0%)
+1  ... 
+
+Histogram: DomainBoundCerts.Support recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Event.Latency.Browser recorded 504 samples, average = 0.5 (flags = 0x1)
+0  ---------------------------------------------------------------O          (236 = 46.8%)
+1  ------------------------------------------------------------------------O (268 = 53.2%) {46.8%}
+2  ... 
+
+Histogram: Event.Latency.Browser.ET_KEY_PRESSED recorded 42 samples, average = 0.4 (flags = 0x1)
+0  ------------------------------------------------------------------------O (27 = 64.3%)
+1  ----------------------------------------O                                 (15 = 35.7%) {64.3%}
+2  ... 
+
+Histogram: Event.Latency.Browser.ET_KEY_RELEASED recorded 21 samples, average = 0.5 (flags = 0x1)
+0  ------------------------------------------------------------------------O (11 = 52.4%)
+1  -----------------------------------------------------------------O        (10 = 47.6%) {52.4%}
+2  ... 
+
+Histogram: Event.Latency.Browser.ET_MOUSEWHEEL recorded 15 samples, average = 0.4 (flags = 0x1)
+0  ------------------------------------------------------------------------O (9 = 60.0%)
+1  ------------------------------------------------O                         (6 = 40.0%) {60.0%}
+2  ... 
+
+Histogram: Event.Latency.Browser.ET_MOUSE_DRAGGED recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Event.Latency.Browser.ET_MOUSE_EXITED recorded 2 samples, average = 0.5 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 50.0%)
+1  ------------------------------------------------------------------------O (1 = 50.0%) {50.0%}
+2  ... 
+
+Histogram: Event.Latency.Browser.ET_MOUSE_MOVED recorded 417 samples, average = 0.6 (flags = 0x1)
+0  --------------------------------------------------------O                 (183 = 43.9%)
+1  ------------------------------------------------------------------------O (234 = 56.1%) {43.9%}
+2  ... 
+
+Histogram: Event.Latency.Browser.ET_MOUSE_PRESSED recorded 3 samples, average = 0.3 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 66.7%)
+1  ------------------------------------O                                     (1 = 33.3%) {66.7%}
+2  ... 
+
+Histogram: Event.Latency.Browser.ET_MOUSE_RELEASED recorded 3 samples, average = 0.3 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 66.7%)
+1  ------------------------------------O                                     (1 = 33.3%) {66.7%}
+2  ... 
+
+Histogram: Event.Latency.Browser.WheelAcked recorded 6 samples, average = 1803.3 (flags = 0x1)
+0     ... 
+471   ------------------------------------------------------------------------O (1 = 16.7%) {0.0%}
+536   ------------------------------------------------------------------------O (1 = 16.7%) {16.7%}
+610   ... 
+901   ------------------------------------------------------------------------O (1 = 16.7%) {33.3%}
+1026  ------------------------------------------------------------------------O (1 = 16.7%) {50.0%}
+1168  ... 
+2545  ------------------------------------------------------------------------O (1 = 16.7%) {66.7%}
+2898  ... 
+4872  ------------------------------------------------------------------------O (1 = 16.7%) {83.3%}
+5548  ... 
+
+Histogram: GPU.AtExitReceivedMemoryStats recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.AtExitSurfaceCount recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.Accelerated2dCanvas recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.GpuCompositing recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.GpuRasterization recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.Webgl recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.Accelerated2dCanvas recorded 1 samples, average = 9.0 (flags = 0x1)
+0  ... 
+9  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+10 ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.GpuCompositing recorded 1 samples, average = 9.0 (flags = 0x1)
+0  ... 
+9  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+10 ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.GpuRasterization recorded 1 samples, average = 9.0 (flags = 0x1)
+0  ... 
+9  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+10 ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.Webgl recorded 1 samples, average = 9.0 (flags = 0x1)
+0  ... 
+9  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+10 ... 
+
+Histogram: GPU.BlacklistTestResultsPerEntry recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.CreateBrowserCompositor recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.DisplayLinkInstallationStatus recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.GLResetNotificationStrategy recorded 1 samples (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+
+Histogram: GPU.GPU.GPUProcessSoftwareRendering recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.GPUProcessExitCode recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.GPUProcessInitialized recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.GPUProcessLaunchCause recorded 1 samples, average = 8.0 (flags = 0x1)
+0  ... 
+8  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+9  ... 
+
+Histogram: GPU.GPUProcessLaunchTime recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: GPU.GPUProcessLifetimeEvents recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.GPUProcessTerminationStatus recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: HttpCache.AccessToDone recorded 20 samples, average = 483.2 (flags = 0x1)
+0     ... 
+57    ------------------------O                                                 (1 = 5.0%) {0.0%}
+68    ------------------------------------------------O                         (2 = 10.0%) {5.0%}
+81    ------------------------O                                                 (1 = 5.0%) {15.0%}
+96    ------------------------------------------------O                         (2 = 10.0%) {20.0%}
+114   ------------------------O                                                 (1 = 5.0%) {30.0%}
+135   ------------------------------------------------------------------------O (3 = 15.0%) {35.0%}
+160   ------------------------O                                                 (1 = 5.0%) {50.0%}
+190   ... 
+378   ------------------------------------------------------------------------O (3 = 15.0%) {55.0%}
+449   ------------------------O                                                 (1 = 5.0%) {70.0%}
+533   ------------------------O                                                 (1 = 5.0%) {75.0%}
+633   ... 
+1062  ------------------------O                                                 (1 = 5.0%) {80.0%}
+1262  O                                                                         (0 = 0.0%) {85.0%}
+1500  ------------------------------------------------O                         (2 = 10.0%) {85.0%}
+1782  ------------------------O                                                 (1 = 5.0%) {95.0%}
+2117  ... 
+
+Histogram: HttpCache.AccessToDone.SentRequest recorded 20 samples, average = 483.2 (flags = 0x1)
+0     ... 
+57    ------------------------O                                                 (1 = 5.0%) {0.0%}
+68    ------------------------------------------------O                         (2 = 10.0%) {5.0%}
+81    ------------------------O                                                 (1 = 5.0%) {15.0%}
+96    ------------------------------------------------O                         (2 = 10.0%) {20.0%}
+114   ------------------------O                                                 (1 = 5.0%) {30.0%}
+135   ------------------------------------------------------------------------O (3 = 15.0%) {35.0%}
+160   ------------------------O                                                 (1 = 5.0%) {50.0%}
+190   ... 
+378   ------------------------------------------------------------------------O (3 = 15.0%) {55.0%}
+449   ------------------------O                                                 (1 = 5.0%) {70.0%}
+533   ------------------------O                                                 (1 = 5.0%) {75.0%}
+633   ... 
+1062  ------------------------O                                                 (1 = 5.0%) {80.0%}
+1262  O                                                                         (0 = 0.0%) {85.0%}
+1500  ------------------------------------------------O                         (2 = 10.0%) {85.0%}
+1782  ------------------------O                                                 (1 = 5.0%) {95.0%}
+2117  ... 
+
+Histogram: HttpCache.BeforeSend recorded 20 samples, average = 1.9 (flags = 0x1)
+0  ------------------------------------------------------------------------O (8 = 40.0%)
+1  O                                                                         (0 = 0.0%) {40.0%}
+2  ---------------------------------------------O                            (5 = 25.0%) {40.0%}
+3  ------------------O                                                       (2 = 10.0%) {65.0%}
+4  ---------------------------O                                              (3 = 15.0%) {75.0%}
+5  ------------------O                                                       (2 = 10.0%) {90.0%}
+6  ... 
+
+Histogram: HttpCache.BeforeSend.NotCached recorded 20 samples, average = 1.9 (flags = 0x1)
+0  ------------------------------------------------------------------------O (8 = 40.0%)
+1  O                                                                         (0 = 0.0%) {40.0%}
+2  ---------------------------------------------O                            (5 = 25.0%) {40.0%}
+3  ------------------O                                                       (2 = 10.0%) {65.0%}
+4  ---------------------------O                                              (3 = 15.0%) {75.0%}
+5  ------------------O                                                       (2 = 10.0%) {90.0%}
+6  ... 
+
+Histogram: HttpCache.EntryLockWait recorded 20 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (20 = 100.0%)
+1  ... 
+
+Histogram: HttpCache.Pattern recorded 20 samples, average = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (20 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: HttpCache.PercentBeforeSend recorded 20 samples, average = 1.4 (flags = 0x1)
+0  ------------------------------------------------------------------------O (11 = 55.0%)
+1  --------------------O                                                     (3 = 15.0%) {55.0%}
+2  -------O                                                                  (1 = 5.0%) {70.0%}
+3  -------O                                                                  (1 = 5.0%) {75.0%}
+4  -------------O                                                            (2 = 10.0%) {80.0%}
+5  -------O                                                                  (1 = 5.0%) {90.0%}
+6  O                                                                         (0 = 0.0%) {95.0%}
+7  -------O                                                                  (1 = 5.0%) {95.0%}
+8  ... 
+
+Histogram: HttpCache.PercentBeforeSend.NotCached recorded 20 samples, average = 1.4 (flags = 0x1)
+0  ------------------------------------------------------------------------O (11 = 55.0%)
+1  --------------------O                                                     (3 = 15.0%) {55.0%}
+2  -------O                                                                  (1 = 5.0%) {70.0%}
+3  -------O                                                                  (1 = 5.0%) {75.0%}
+4  -------------O                                                            (2 = 10.0%) {80.0%}
+5  -------O                                                                  (1 = 5.0%) {90.0%}
+6  O                                                                         (0 = 0.0%) {95.0%}
+7  -------O                                                                  (1 = 5.0%) {95.0%}
+8  ... 
+
+Histogram: LocalStorage.BrowserLocalStorageSizeInKB recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: LocalStorage.BrowserTimeToPrimeLocalStorage recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: LocalStorage.BrowserTimeToPrimeLocalStorageUnder100KB recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: LocalStorage.CommitDelay recorded 1 samples, average = 5000.0 (flags = 0x1)
+0     ... 
+4516  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+6118  ... 
+
+Histogram: MPArch.ChildProcessLaunchFirst recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: MPArch.ChildProcessLaunchSubsequent recorded 2 samples, average = 1.5 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 50.0%) {0.0%}
+2  ------------------------------------------------------------------------O (1 = 50.0%) {50.0%}
+3  ... 
+
+Histogram: MPArch.IIR_InputEventDelta recorded 484 samples, average = 1.3 (flags = 0x1)
+0   ------------------------------------------------------------------------O (347 = 71.7%)
+1   ------------------O                                                       (88 = 18.2%) {71.7%}
+2   --O                                                                       (10 = 2.1%) {89.9%}
+3   -O                                                                        (6 = 1.2%) {91.9%}
+4   -O                                                                        (6 = 1.2%) {93.2%}
+5   O                                                                         (1 = 0.2%) {94.4%}
+6   O                                                                         (1 = 0.2%) {94.6%}
+7   O                                                                         (0 = 0.0%) {94.8%}
+8   O                                                                         (2 = 0.4%) {94.8%}
+10  -O                                                                        (8 = 1.7%) {95.2%}
+12  -O                                                                        (6 = 1.2%) {96.9%}
+14  O                                                                         (2 = 0.4%) {98.1%}
+17  O                                                                         (2 = 0.4%) {98.6%}
+20  O                                                                         (0 = 0.0%) {99.0%}
+24  O                                                                         (1 = 0.2%) {99.0%}
+29  O                                                                         (1 = 0.2%) {99.2%}
+34  O                                                                         (0 = 0.0%) {99.4%}
+40  O                                                                         (2 = 0.4%) {99.4%}
+48  ... 
+68  O                                                                         (1 = 0.2%) {99.8%}
+81  ... 
+
+Histogram: MPArch.RWH_DidUpdateBackingStore recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: MPArch.RWH_OnMsgUpdateRect recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Media.AudioThreadStatus recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: Media.Midi.ResultOnShutdown recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Media.Midi.Usage recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Memory.PressureLevel recorded 29 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (29 = 100.0%)
+1  ... 
+
+Histogram: Navigation.RedirectChainSize recorded 4 samples, average = 91.3 (flags = 0x1)
+0    ... 
+65   ------------------------------------------------------------------------O (2 = 50.0%) {0.0%}
+86   ------------------------------------O                                     (1 = 25.0%) {50.0%}
+113  ------------------------------------O                                     (1 = 25.0%) {75.0%}
+149  ... 
+
+Histogram: Navigation.TimeToCommit recorded 1 samples, average = 33.0 (flags = 0x1)
+0   ... 
+29  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+34  ... 
+
+Histogram: Navigation.TimeToCommit_NewRenderer_BeforeUnloadDiscounted recorded 1 samples, average = 33.0 (flags = 0x1)
+0   ... 
+29  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+34  ... 
+
+Histogram: Navigation.TimeToURLJobStart recorded 1 samples, average = 29.0 (flags = 0x1)
+0   ... 
+29  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+34  ... 
+
+Histogram: Navigation.TimeToURLJobStart_NewRenderer_BeforeUnloadDiscounted recorded 1 samples, average = 29.0 (flags = 0x1)
+0   ... 
+29  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+34  ... 
+
+Histogram: Net.CertCommonNameFallback recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Net.CertVerifier_First_Job_Latency recorded 1 samples, average = 25.0 (flags = 0x1)
+0   ... 
+23  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+26  ... 
+
+Histogram: Net.CertVerifier_Job_Latency recorded 1 samples, average = 25.0 (flags = 0x1)
+0   ... 
+23  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+26  ... 
+
+Histogram: Net.Certificate.SHA1.Subresource recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Net.ConnectionTypeCount3 recorded 54 samples, average = 3.5 (flags = 0x1)
+0  ------------------------------------------------------------------------O (27 = 50.0%)
+1  ... 
+7  ------------------------------------------------------------------------O (27 = 50.0%) {50.0%}
+8  ... 
+
+Histogram: Net.ConnectionUsedSSLDeprecatedCipherFallback2 recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Net.ConnectionUsedSSLVersionFallback2 recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Net.DNS_Resolution_And_TCP_Connection_Latency2 recorded 27 samples, average = 35.7 (flags = 0x1)
+0    ... 
+23   ------O                                                                   (1 = 3.7%) {0.0%}
+26   --------------------------------------O                                   (6 = 22.2%) {3.7%}
+29   ------------------------------------------------------------------------O (15 = 55.6%) {25.9%}
+33   ----------O                                                               (2 = 7.4%) {81.5%}
+37   O                                                                         (0 = 0.0%) {88.9%}
+42   ----O                                                                     (1 = 3.7%) {88.9%}
+48   ... 
+88   ----O                                                                     (1 = 3.7%) {92.6%}
+100  ----O                                                                     (1 = 3.7%) {96.3%}
+113  ... 
+
+Histogram: Net.ErrorCodesForImages recorded 23 samples (flags = 0x1)
+0  ------------------------------------------------------------------------O (23 = 100.0%)
+
+Histogram: Net.ErrorCodesForMainFrame3 recorded 1 samples (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+
+Histogram: Net.ErrorCodesForSubresources2 recorded 183 samples (flags = 0x1)
+0  ------------------------------------------------------------------------O (183 = 100.0%)
+
+Histogram: Net.HadConnectionType3 recorded 2 samples, average = 3.5 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 50.0%)
+1  ... 
+7  ------------------------------------------------------------------------O (1 = 50.0%) {50.0%}
+8  ... 
+
+Histogram: Net.HttpAuthCacheLookupByPathPosition recorded 39 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (39 = 100.0%)
+1  ... 
+
+Histogram: Net.HttpHeaderParserEvent recorded 40 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (40 = 100.0%)
+1  ... 
+
+Histogram: Net.HttpJob.TotalTime recorded 40 samples, average = 276.0 (flags = 0x1)
+0     ... 
+48    ---------O                                                                (2 = 5.0%) {0.0%}
+57    ------------------------------------------------------------------------O (16 = 40.0%) {5.0%}
+68    -------------O                                                            (3 = 7.5%) {45.0%}
+81    -----O                                                                    (1 = 2.5%) {52.5%}
+96    ---------O                                                                (2 = 5.0%) {55.0%}
+114   ---------O                                                                (2 = 5.0%) {60.0%}
+135   -------------O                                                            (3 = 7.5%) {65.0%}
+160   ---------O                                                                (2 = 5.0%) {72.5%}
+190   ... 
+378   -------------O                                                            (3 = 7.5%) {77.5%}
+449   -----O                                                                    (1 = 2.5%) {85.0%}
+533   -----O                                                                    (1 = 2.5%) {87.5%}
+633   ... 
+1062  -----O                                                                    (1 = 2.5%) {90.0%}
+1262  O                                                                         (0 = 0.0%) {92.5%}
+1500  ---------O                                                                (2 = 5.0%) {92.5%}
+1782  -----O                                                                    (1 = 2.5%) {97.5%}
+2117  ... 
+
+Histogram: Net.HttpJob.TotalTimeCancel recorded 20 samples, average = 68.6 (flags = 0x1)
+0    ... 
+48   ----------O                                                               (2 = 10.0%) {0.0%}
+57   ------------------------------------------------------------------------O (15 = 75.0%) {10.0%}
+68   -----O                                                                    (1 = 5.0%) {85.0%}
+81   ... 
+114  -----O                                                                    (1 = 5.0%) {90.0%}
+135  -----O                                                                    (1 = 5.0%) {95.0%}
+160  ... 
+
+Histogram: Net.HttpJob.TotalTimeNotCached recorded 40 samples, average = 276.0 (flags = 0x1)
+0     ... 
+48    ---------O                                                                (2 = 5.0%) {0.0%}
+57    ------------------------------------------------------------------------O (16 = 40.0%) {5.0%}
+68    -------------O                                                            (3 = 7.5%) {45.0%}
+81    -----O                                                                    (1 = 2.5%) {52.5%}
+96    ---------O                                                                (2 = 5.0%) {55.0%}
+114   ---------O                                                                (2 = 5.0%) {60.0%}
+135   -------------O                                                            (3 = 7.5%) {65.0%}
+160   ---------O                                                                (2 = 5.0%) {72.5%}
+190   ... 
+378   -------------O                                                            (3 = 7.5%) {77.5%}
+449   -----O                                                                    (1 = 2.5%) {85.0%}
+533   -----O                                                                    (1 = 2.5%) {87.5%}
+633   ... 
+1062  -----O                                                                    (1 = 2.5%) {90.0%}
+1262  O                                                                         (0 = 0.0%) {92.5%}
+1500  ---------O                                                                (2 = 5.0%) {92.5%}
+1782  -----O                                                                    (1 = 2.5%) {97.5%}
+2117  ... 
+
+Histogram: Net.HttpJob.TotalTimeSuccess recorded 20 samples, average = 483.5 (flags = 0x1)
+0     ... 
+57    ------------------------O                                                 (1 = 5.0%) {0.0%}
+68    ------------------------------------------------O                         (2 = 10.0%) {5.0%}
+81    ------------------------O                                                 (1 = 5.0%) {15.0%}
+96    ------------------------------------------------O                         (2 = 10.0%) {20.0%}
+114   ------------------------O                                                 (1 = 5.0%) {30.0%}
+135   ------------------------------------------------O                         (2 = 10.0%) {35.0%}
+160   ------------------------------------------------O                         (2 = 10.0%) {45.0%}
+190   ... 
+378   ------------------------------------------------------------------------O (3 = 15.0%) {55.0%}
+449   ------------------------O                                                 (1 = 5.0%) {70.0%}
+533   ------------------------O                                                 (1 = 5.0%) {75.0%}
+633   ... 
+1062  ------------------------O                                                 (1 = 5.0%) {80.0%}
+1262  O                                                                         (0 = 0.0%) {85.0%}
+1500  ------------------------------------------------O                         (2 = 10.0%) {85.0%}
+1782  ------------------------O                                                 (1 = 5.0%) {95.0%}
+2117  ... 
+
+Histogram: Net.HttpRequest.ContainsInvalidHeaderValuesInRFC7230 recorded 40 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (40 = 100.0%)
+1  ... 
+
+Histogram: Net.HttpResponse.ContainsInvalidHeaderValuesInRFC7230 recorded 40 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (40 = 100.0%)
+1  ... 
+
+Histogram: Net.HttpResponseCode recorded 41 samples, average = 151.7 (flags = 0x1)
+0    ... 
+101  ------------------------------------------------------------------------O (20 = 48.8%) {0.0%}
+102  ... 
+200  ------------------------------------------------------------------------O (21 = 51.2%) {48.8%}
+201  ... 
+
+Histogram: Net.HttpResponseInfo.ConnectionInfo recorded 20 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (20 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: Net.HttpStatusLineStatus recorded 40 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (40 = 100.0%)
+1  ... 
+
+Histogram: Net.HttpTimeToFirstByte recorded 40 samples, average = 64.0 (flags = 0x1)
+0    ... 
+33   -----------------------------------------------------O                    (11 = 27.5%) {0.0%}
+41   O                                                                         (0 = 0.0%) {27.5%}
+50   -------------------------------------------O                              (9 = 22.5%) {27.5%}
+61   ------------------------------------------------------------------------O (15 = 37.5%) {50.0%}
+75   -----O                                                                    (1 = 2.5%) {87.5%}
+92   O                                                                         (0 = 0.0%) {90.0%}
+113  -----O                                                                    (1 = 2.5%) {90.0%}
+139  --------------O                                                           (3 = 7.5%) {92.5%}
+171  ... 
+
+Histogram: Net.NotifyAddrChangeFailures recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Net.OCSPResponseStapled recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Net.PreconnectUtilization2 recorded 27 samples, average = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (27 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: Net.PrefProxyConfig.GooglezipProxyRemovalCount recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Net.Prefetch.Pattern recorded 144 samples, average = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (144 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: Net.Prefetch.TimeSpentPrefetchingFromNetwork recorded 144 samples, average = 28.1 (flags = 0x1)
+0   ... 
+6   ----O                                                                     (1 = 0.7%) {0.0%}
+7   ... 
+14  -O                                                                        (1 = 0.7%) {0.7%}
+17  -----O                                                                    (4 = 2.8%) {1.4%}
+20  -----O                                                                    (5 = 3.5%) {4.2%}
+24  --------------------------------O                                         (41 = 28.5%) {7.6%}
+29  ------------------------------------------------------------------------O (91 = 63.2%) {36.1%}
+34  -O                                                                        (1 = 0.7%) {99.3%}
+40  ... 
+
+Histogram: Net.ProxyService.ResolveProxyTime recorded 40 samples, average = 0.1 (flags = 0x1)
+0  ------------------------------------------------------------------------O (39 = 97.5%)
+1  O                                                                         (0 = 0.0%) {97.5%}
+2  --O                                                                       (1 = 2.5%) {97.5%}
+3  ... 
+
+Histogram: Net.ProxyService.ResolvedUsingScript recorded 40 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (40 = 100.0%)
+1  ... 
+
+Histogram: Net.QuicSession.PreferAesGcm recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: Net.RequestTime2.Success recorded 1 samples, average = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: Net.SSLCertVerificationTime recorded 1 samples, average = 25.0 (flags = 0x1)
+0   ... 
+24  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+29  ... 
+
+Histogram: Net.SSLServerKeyExchangeHash recorded 1 samples (flags = 0x1)
+4  ------------------------------------------------------------------------O (1 = 100.0%)
+
+Histogram: Net.SSLVersion recorded 1 samples, average = 5.0 (flags = 0x1)
+0  ... 
+5  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+6  ... 
+
+Histogram: Net.SSL_CipherSuite recorded 1 samples (flags = 0x1)
+49199  ------------------------------------------------------------------------O (1 = 100.0%)
+
+Histogram: Net.SSL_Connection_Error recorded 1 samples (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+
+Histogram: Net.SSL_Connection_Latency_2 recorded 1 samples, average = 80.0 (flags = 0x1)
+0   ... 
+75  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+83  ... 
+
+Histogram: Net.SSL_Connection_Latency_Full_Handshake recorded 1 samples, average = 80.0 (flags = 0x1)
+0   ... 
+75  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+83  ... 
+
+Histogram: Net.SSL_KeyExchange.ECDHE recorded 1 samples (flags = 0x1)
+23  ------------------------------------------------------------------------O (1 = 100.0%)
+
+Histogram: Net.TCP_Connection_Latency recorded 27 samples, average = 35.7 (flags = 0x1)
+0    ... 
+23   ------O                                                                   (1 = 3.7%) {0.0%}
+26   --------------------------------------O                                   (6 = 22.2%) {3.7%}
+29   ------------------------------------------------------------------------O (15 = 55.6%) {25.9%}
+33   ----------O                                                               (2 = 7.4%) {81.5%}
+37   O                                                                         (0 = 0.0%) {88.9%}
+42   ----O                                                                     (1 = 3.7%) {88.9%}
+48   ... 
+88   ----O                                                                     (1 = 3.7%) {92.6%}
+100  ----O                                                                     (1 = 3.7%) {96.3%}
+113  ... 
+
+Histogram: Net.TCP_Connection_Latency_IPv4_No_Race recorded 27 samples, average = 35.7 (flags = 0x1)
+0    ... 
+23   ------O                                                                   (1 = 3.7%) {0.0%}
+26   --------------------------------------O                                   (6 = 22.2%) {3.7%}
+29   ------------------------------------------------------------------------O (15 = 55.6%) {25.9%}
+33   ----------O                                                               (2 = 7.4%) {81.5%}
+37   O                                                                         (0 = 0.0%) {88.9%}
+42   ----O                                                                     (1 = 3.7%) {88.9%}
+48   ... 
+88   ----O                                                                     (1 = 3.7%) {92.6%}
+100  ----O                                                                     (1 = 3.7%) {96.3%}
+113  ... 
+
+Histogram: Net.TCP_Connection_Latency_Interval_GreaterThan_20ms recorded 2 samples, average = 27.0 (flags = 0x1)
+0   ... 
+23  ------------------------------------------------------------------------O (1 = 50.0%) {0.0%}
+26  O                                                                         (0 = 0.0%) {50.0%}
+29  ------------------------------------------------------O                   (1 = 50.0%) {50.0%}
+33  ... 
+
+Histogram: Net.TCP_Connection_Latency_Interval_LessThanOrEqual_10ms recorded 5 samples, average = 30.6 (flags = 0x1)
+0   ... 
+29  ------------------------------------------------------------------------O (5 = 100.0%) {0.0%}
+33  ... 
+
+Histogram: Net.UDPSocketWinClose recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Net.WebSocket.Duration recorded 20 samples, average = 353.6 (flags = 0x1)
+0     ... 
+87    ------------O                                                             (1 = 5.0%) {0.0%}
+118   ------------------------O                                                 (2 = 10.0%) {5.0%}
+160   ------------------------------------------------------------O             (5 = 25.0%) {15.0%}
+217   ------------------------------------------------O                         (4 = 20.0%) {40.0%}
+294   ------------------------------------------------------------------------O (6 = 30.0%) {60.0%}
+398   ... 
+1340  ------------------------O                                                 (2 = 10.0%) {90.0%}
+1816  ... 
+
+Histogram: Net.WebSocket.ErrorCodes recorded 20 samples (flags = 0x1)
+0  ------------------------------------------------------------------------O (20 = 100.0%)
+
+Histogram: Net.WebSocket.HandshakeResult recorded 20 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (20 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: Net.WebSocket.ResponseCode recorded 20 samples (flags = 0x1)
+101  ------------------------------------------------------------------------O (20 = 100.0%)
+
+Histogram: Plugin.NPAPIStatus recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: PluginFinder.BuiltInPluginList.ErrorCode recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Renderer.DrawDuration recorded 4 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (4 = 100.0%)
+1  ... 
+
+Histogram: Renderer.DrawDurationOverestimate recorded 4 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (4 = 100.0%)
+1  ... 
+
+Histogram: Renderer.DrawDurationUnderestimate recorded 4 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (4 = 100.0%)
+1  ... 
+
+Histogram: Renderer.KeyboardQueueSize recorded 63 samples, average = 1.3
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (42 = 66.7%) {0.0%}
+2  ------------------------------------O                                     (21 = 33.3%) {66.7%}
+3  ... 
+
+Histogram: Renderer.WheelQueueSize recorded 6 samples, average = 0.0
+0  ------------------------------------------------------------------------O (6 = 100.0%)
+1  ... 
+
+Histogram: Renderer4.renderPassCount recorded 1613 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1596 = 98.9%) {0.0%}
+2  -O                                                                        (17 = 1.1%) {98.9%}
+3  ... 
+
+Histogram: ResourceScheduler.ClientLoadedTime.Active recorded 3 samples, average = 204.0 (flags = 0x1)
+0    ------------------------------------------------------------------------O (2 = 66.7%)
+1    ... 
+567  -------O                                                                  (1 = 33.3%) {66.7%}
+729  ... 
+
+Histogram: ResourceScheduler.ClientLoadedTime.Active.1Client recorded 3 samples, average = 204.0 (flags = 0x1)
+0    ------------------------------------------------------------------------O (2 = 66.7%)
+1    ... 
+567  -------O                                                                  (1 = 33.3%) {66.7%}
+729  ... 
+
+Histogram: ResourceScheduler.RequestTimeDeferred.Active recorded 184 samples, average = 62.3 (flags = 0x1)
+0     ------------------------------------------------------------------------O (172 = 93.5%)
+1     ... 
+98    O                                                                         (1 = 0.5%) {93.5%}
+126   ... 
+441   O                                                                         (1 = 0.5%) {94.0%}
+567   O                                                                         (1 = 0.5%) {94.6%}
+729   O                                                                         (1 = 0.5%) {95.1%}
+937   O                                                                         (5 = 2.7%) {95.7%}
+1204  O                                                                         (3 = 1.6%) {98.4%}
+1547  ... 
+
+Histogram: ResourceScheduler.RequestTimeThrottled.Active recorded 184 samples, average = 62.3 (flags = 0x1)
+0     ------------------------------------------------------------------------O (172 = 93.5%)
+1     ... 
+98    O                                                                         (1 = 0.5%) {93.5%}
+126   ... 
+441   O                                                                         (1 = 0.5%) {94.0%}
+567   O                                                                         (1 = 0.5%) {94.6%}
+729   O                                                                         (1 = 0.5%) {95.1%}
+937   O                                                                         (5 = 2.7%) {95.7%}
+1204  O                                                                         (3 = 1.6%) {98.4%}
+1547  ... 
+
+Histogram: Scheduling.Browser.ActivateDuration recorded 4 samples, average = 4.8 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (2 = 50.0%) {0.0%}
+4  O                                                                         (0 = 0.0%) {50.0%}
+5  ------------------------------------O                                     (1 = 25.0%) {50.0%}
+6  ... 
+8  ------------------------------------O                                     (1 = 25.0%) {75.0%}
+9  ... 
+
+Histogram: Scheduling.Browser.ActivateDuration.Overestimate recorded 4 samples, average = 1.8 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 50.0%)
+1  O                                                                         (0 = 0.0%) {50.0%}
+2  ------------------------------------O                                     (1 = 25.0%) {50.0%}
+3  ... 
+5  ------------------------------------O                                     (1 = 25.0%) {75.0%}
+6  ... 
+
+Histogram: Scheduling.Browser.ActivateDuration.Underestimate recorded 4 samples, average = 2.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 50.0%)
+1  ... 
+3  ------------------------------------O                                     (1 = 25.0%) {50.0%}
+4  O                                                                         (0 = 0.0%) {75.0%}
+5  ------------------------------------O                                     (1 = 25.0%) {75.0%}
+6  ... 
+
+Histogram: Scheduling.Browser.BeginMainFrameQueueDurationCritical recorded 4 samples, average = 14.8 (flags = 0x1)
+0   ... 
+4   ------------------------------------------------------------------------O (1 = 25.0%) {0.0%}
+5   ------------------------------------------------------------------------O (1 = 25.0%) {25.0%}
+6   ... 
+22  ------------------------O                                                 (1 = 25.0%) {50.0%}
+25  ------------------------O                                                 (1 = 25.0%) {75.0%}
+28  ... 
+
+Histogram: Scheduling.Browser.BeginMainFrameStartToCommit recorded 4 samples, average = 170.8 (flags = 0x1)
+0    ... 
+68   ------------------------------------------------------------------------O (1 = 25.0%) {0.0%}
+77   O                                                                         (0 = 0.0%) {25.0%}
+88   ------------------------------------------------------------------------O (1 = 25.0%) {25.0%}
+100  ... 
+217  ------------------------------------------------------------------------O (1 = 25.0%) {50.0%}
+247  ------------------------------------------------------------------------O (1 = 25.0%) {75.0%}
+281  ... 
+
+Histogram: Scheduling.Browser.BeginMainFrameToCommitDuration recorded 4 samples, average = 185.5 (flags = 0x1)
+0    ... 
+68   ------------------------------------------------------------------------O (1 = 25.0%) {0.0%}
+77   ... 
+114  ------------------------------------------------------------------------O (1 = 25.0%) {25.0%}
+130  ... 
+247  ------------------------------------------------------------------------O (1 = 25.0%) {50.0%}
+281  ------------------------------------------------------------------------O (1 = 25.0%) {75.0%}
+320  ... 
+
+Histogram: Scheduling.Browser.BeginMainFrameToCommitDuration.Overestimate recorded 4 samples, average = 98.5 (flags = 0x1)
+0    ------------------------------------------------------------------------O (1 = 25.0%)
+1    ... 
+22   ------------------------O                                                 (1 = 25.0%) {25.0%}
+25   ... 
+148  --------------O                                                           (1 = 25.0%) {50.0%}
+168  O                                                                         (0 = 0.0%) {75.0%}
+191  --------------O                                                           (1 = 25.0%) {75.0%}
+217  ... 
+
+Histogram: Scheduling.Browser.BeginMainFrameToCommitDuration.Underestimate recorded 4 samples, average = 71.0 (flags = 0x1)
+0    ------------------------------------------------------------------------O (3 = 75.0%)
+1    ... 
+281  -----O                                                                    (1 = 25.0%) {75.0%}
+320  ... 
+
+Histogram: Scheduling.Browser.CommitToReadyToActivateDuration recorded 4 samples, average = 64.0 (flags = 0x1)
+0    ... 
+17   ------------------------------------------------------------------------O (1 = 25.0%) {0.0%}
+19   ------------------------------------------------O                         (1 = 25.0%) {25.0%}
+22   ... 
+47   -----------------------------O                                            (1 = 25.0%) {50.0%}
+53   ... 
+168  -----------------------------O                                            (1 = 25.0%) {75.0%}
+191  ... 
+
+Histogram: Scheduling.Browser.CommitToReadyToActivateDuration.Overestimate recorded 4 samples, average = 104.0 (flags = 0x1)
+0    ------------------------------------------------------------------------O (1 = 25.0%)
+1    ... 
+114  --------------O                                                           (1 = 25.0%) {25.0%}
+130  O                                                                         (0 = 0.0%) {50.0%}
+148  -----------------------------O                                            (2 = 50.0%) {50.0%}
+168  ... 
+
+Histogram: Scheduling.Browser.CommitToReadyToActivateDuration.Underestimate recorded 4 samples, average = 42.0 (flags = 0x1)
+0    ------------------------------------------------------------------------O (3 = 75.0%)
+1    ... 
+168  -----O                                                                    (1 = 25.0%) {75.0%}
+191  ... 
+
+Histogram: Scheduling.Browser.DrawDuration recorded 4 samples, average = 60.3 (flags = 0x1)
+0    ... 
+22   ------------------------------------------------------------------------O (1 = 25.0%) {0.0%}
+25   O                                                                         (0 = 0.0%) {25.0%}
+28   ------------------------------------------------------O                   (1 = 25.0%) {25.0%}
+32   ... 
+77   -------------------------------------------O                              (1 = 25.0%) {50.0%}
+88   O                                                                         (0 = 0.0%) {75.0%}
+100  -------------------------------------------O                              (1 = 25.0%) {75.0%}
+114  ... 
+
+Histogram: Scheduling.Browser.DrawDuration.Overestimate recorded 4 samples, average = 34.8 (flags = 0x1)
+0   ------------------------------------------------------------------------O (2 = 50.0%)
+1   ... 
+53  -------O                                                                  (1 = 25.0%) {50.0%}
+60  ... 
+77  -------O                                                                  (1 = 25.0%) {75.0%}
+88  ... 
+
+Histogram: Scheduling.Browser.DrawDuration.Underestimate recorded 4 samples, average = 27.8 (flags = 0x1)
+0   ------------------------------------------------------------------------O (2 = 50.0%)
+1   ... 
+32  ---------O                                                                (1 = 25.0%) {50.0%}
+36  ... 
+77  -------O                                                                  (1 = 25.0%) {75.0%}
+88  ... 
+
+Histogram: Scheduling.Browser.PrepareTilesDuration recorded 5 samples, average = 22.4 (flags = 0x1)
+0   ... 
+13  ------------------------------------------------------------------------O (2 = 40.0%) {0.0%}
+15  O                                                                         (0 = 0.0%) {40.0%}
+17  ------------------------------------O                                     (1 = 20.0%) {40.0%}
+19  ... 
+28  ------------------O                                                       (1 = 20.0%) {60.0%}
+32  O                                                                         (0 = 0.0%) {80.0%}
+36  --------------O                                                           (1 = 20.0%) {80.0%}
+41  ... 
+
+Histogram: Scheduling.Browser.PrepareTilesDuration.Overestimate recorded 5 samples, average = 10.0 (flags = 0x1)
+0   ------------------------------------------------------------------------O (2 = 40.0%)
+1   ... 
+10  ------------------------------------O                                     (1 = 20.0%) {40.0%}
+11  ... 
+15  ------------------O                                                       (1 = 20.0%) {60.0%}
+17  ... 
+25  ------------O                                                             (1 = 20.0%) {80.0%}
+28  ... 
+
+Histogram: Scheduling.Browser.PrepareTilesDuration.Underestimate recorded 5 samples, average = 7.8 (flags = 0x1)
+0   ------------------------------------------------------------------------O (3 = 60.0%)
+1   ... 
+11  ------------O                                                             (1 = 20.0%) {60.0%}
+13  ... 
+28  ------O                                                                   (1 = 20.0%) {80.0%}
+32  ... 
+
+Histogram: Scheduling.Browser.SwapToAckLatency recorded 4 samples, average = 2325.3 (flags = 0x1)
+0     ... 
+47    ------------------------------------O                                     (1 = 25.0%) {0.0%}
+53    ... 
+68    ------------------------------------O                                     (1 = 25.0%) {25.0%}
+77    ... 
+4279  ------------------------------------------------------------------------O (2 = 50.0%) {50.0%}
+4872  ... 
+
+Histogram: Sqlite.AutoCommitTime recorded 6 samples, average = 4.3 (flags = 0x1)
+0   ------------------------------------------------------------------------O (5 = 83.3%)
+10  O                                                                         (0 = 0.0%) {83.3%}
+12  ------------------------O                                                 (1 = 16.7%) {83.3%}
+15  ... 
+
+Histogram: Sqlite.AutoCommitTime.Cookie recorded 4 samples, average = 3.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (4 = 100.0%)
+10 ... 
+
+Histogram: Sqlite.AutoCommitTime.DOMStorageDatabase recorded 2 samples, average = 7.0 (flags = 0x1)
+0   -------------------------------------------O                              (1 = 50.0%)
+10  O                                                                         (0 = 0.0%) {50.0%}
+12  ------------------------------------------------------------------------O (1 = 50.0%) {50.0%}
+15  ... 
+
+Histogram: Sqlite.CommitTime recorded 2 samples, average = 6.5 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+10 ... 
+
+Histogram: Sqlite.CommitTime.Cookie recorded 1 samples, average = 4.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+10 ... 
+
+Histogram: Sqlite.CommitTime.DOMStorageDatabase recorded 1 samples, average = 9.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+10 ... 
+
+Histogram: Sqlite.QueryTime recorded 27 samples, average = 1.4 (flags = 0x1)
+0   ------------------------------------------------------------------------O (26 = 96.3%)
+10  O                                                                         (0 = 0.0%) {96.3%}
+12  -----O                                                                    (1 = 3.7%) {96.3%}
+15  ... 
+
+Histogram: Sqlite.QueryTime.Cookie recorded 17 samples, average = 0.9 (flags = 0x1)
+0  ------------------------------------------------------------------------O (17 = 100.0%)
+10 ... 
+
+Histogram: Sqlite.QueryTime.DOMStorageDatabase recorded 10 samples, average = 2.3 (flags = 0x1)
+0   ------------------------------------------------------------------------O (9 = 90.0%)
+10  O                                                                         (0 = 0.0%) {90.0%}
+12  -------------O                                                            (1 = 10.0%) {90.0%}
+15  ... 
+
+Histogram: Sqlite.Stats recorded 92 samples, average = 1.9 (flags = 0x1)
+0  ------------------------------------------------------------------------O (27 = 29.3%)
+1  --------------------------------O                                         (12 = 13.0%) {29.3%}
+2  ------------------------------------------------------------------------O (27 = 29.3%) {42.4%}
+3  -------------------------------------O                                    (14 = 15.2%) {71.7%}
+4  --------O                                                                 (3 = 3.3%) {87.0%}
+5  -----------O                                                              (4 = 4.3%) {90.2%}
+6  -----O                                                                    (2 = 2.2%) {94.6%}
+7  -----O                                                                    (2 = 2.2%) {96.7%}
+8  O                                                                         (0 = 0.0%) {98.9%}
+9  ---O                                                                      (1 = 1.1%) {98.9%}
+10 ... 
+
+Histogram: Sqlite.Stats.Cookie recorded 58 samples, average = 2.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (17 = 29.3%)
+1  ------------------------------O                                           (7 = 12.1%) {29.3%}
+2  ------------------------------------------------------------------------O (17 = 29.3%) {41.4%}
+3  ----------------------------------O                                       (8 = 13.8%) {70.7%}
+4  -------------O                                                            (3 = 5.2%) {84.5%}
+5  -------------O                                                            (3 = 5.2%) {89.7%}
+6  ----O                                                                     (1 = 1.7%) {94.8%}
+7  ----O                                                                     (1 = 1.7%) {96.6%}
+8  O                                                                         (0 = 0.0%) {98.3%}
+9  ----O                                                                     (1 = 1.7%) {98.3%}
+10 ... 
+
+Histogram: Sqlite.Stats.DOMStorageDatabase recorded 34 samples, average = 1.8 (flags = 0x1)
+0  ------------------------------------------------------------------------O (10 = 29.4%)
+1  ------------------------------------O                                     (5 = 14.7%) {29.4%}
+2  ------------------------------------------------------------------------O (10 = 29.4%) {44.1%}
+3  -------------------------------------------O                              (6 = 17.6%) {73.5%}
+4  O                                                                         (0 = 0.0%) {91.2%}
+5  -------O                                                                  (1 = 2.9%) {91.2%}
+6  -------O                                                                  (1 = 2.9%) {94.1%}
+7  -------O                                                                  (1 = 2.9%) {97.1%}
+8  ... 
+
+Histogram: Sqlite.UpdateTime recorded 13 samples, average = 3.0 (flags = 0x1)
+0   ------------------------------------------------------------------------O (12 = 92.3%)
+10  O                                                                         (0 = 0.0%) {92.3%}
+12  ----------O                                                               (1 = 7.7%) {92.3%}
+15  ... 
+
+Histogram: Sqlite.UpdateTime.Cookie recorded 9 samples, average = 1.8 (flags = 0x1)
+0  ------------------------------------------------------------------------O (9 = 100.0%)
+10 ... 
+
+Histogram: Sqlite.UpdateTime.DOMStorageDatabase recorded 4 samples, average = 5.8 (flags = 0x1)
+0   ------------------------------------------------------------------------O (3 = 75.0%)
+10  O                                                                         (0 = 0.0%) {75.0%}
+12  ----------------------------------------O                                 (1 = 25.0%) {75.0%}
+15  ... 
+
+Histogram: Startup.BrowserMainRunnerImplInitializeLongTime recorded 1 samples, average = 14.0 (flags = 0x1)
+0   ... 
+14  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+16  ... 
+
+Histogram: Startup.BrowserMainRunnerImplInitializeStep1Time recorded 1 samples, average = 4.0 (flags = 0x1)
+0  ... 
+4  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+5  ... 
+
+Histogram: Startup.BrowserMainRunnerImplInitializeStep2Time recorded 1 samples, average = 10.0 (flags = 0x1)
+0   ... 
+10  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+12  ... 
+
+Histogram: Storage.Blob.ExceededMemory recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Storage.Blob.ItemCount recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: Storage.Blob.StorageSizeAfterAppend recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: Storage.Blob.StorageSizeBeforeAppend recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Storage.Blob.TotalSize recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: Storage.Blob.TotalUnsharedSize recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: Storage.BlobItemSize.Bytes recorded 1 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: TileManager.ExceededMemoryBudget recorded 5 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (5 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+Histogram: Windows.Win32kRendererLockdown recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.CompletionQueueTime recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.CompletionRunTime recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.TaskQueueTime recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.TaskRunTime recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: interstitial.ssl.good_cert_seen recorded 1 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: mime_sniffer.ShouldSniffMimeType2 recorded 184 samples, average = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (184 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: mime_sniffer.kSniffableTypes2 recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: mime_sniffer.kUnknownMimeTypes2 recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: nosniff.usage recorded 184 samples, average = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (184 = 100.0%)
+1  ... 
+
+
+[0811/122735:VERBOSE1:pref_proxy_config_tracker_impl.cc(218)] 000000002D062880: set chrome proxy config service to 000000002D09F9B0
+[0811/122735:VERBOSE1:pref_proxy_config_tracker_impl.cc(355)] 000000002D062880: Done pushing proxy to UpdateProxyConfig
+[0811/122736:ERROR:browser_gpu_channel_host_factory.cc(133)] Failed to com.erp.launch GPU process.
+[0811/122736:VERBOSE1:webrtc_internals.cc(58)] Could not get the download directory.
+[0811/122736:ERROR:browser_gpu_channel_host_factory.cc(133)] Failed to com.erp.launch GPU process.
+[0811/122737:INFO:CONSOLE(1)] "store/state.js should export a method that returns an object", source: https://ykdrugs.com/_nuxt/app.24d2d44533c5b41ca4b9.js (1)
+[0811/122738:INFO:CONSOLE(1)] " _______           _______..______      ___       ______  _______ 
+|   ____|         /       ||   _  \    /   \     /      ||   ____|
+|  |__    ______ |   (----`|  |_)  |  /  ^  \   |  ,----'|  |__   
+|   __|  |______| \   \    |   ___/  /  /_\  \  |  |     |   __|  
+|  |          .----)   |   |  |     /  _____  \ |  `----.|  |____ 
+|__|          |_______/    | _|    /__/     \__\ \______||_______|
+                                                                  
+", source: https://ykdrugs.com/_nuxt/app.24d2d44533c5b41ca4b9.js (1)
+[0811/122800:ERROR:browser_gpu_channel_host_factory.cc(133)] Failed to com.erp.launch GPU process.
+[0811/122800:ERROR:browser_gpu_channel_host_factory.cc(133)] Failed to com.erp.launch GPU process.
+[0811/122800:VERBOSE1:mime_type_resource_handler.cc(269)] To buffer: https://www.ykdrugs.com:9999/drug.apk
+[0811/122800:VERBOSE1:navigator_impl.cc(161)] Failed Provisional Load: https://www.ykdrugs.com:9999/drug.apk, error_code: -3, error_description: , showing_repost_interstitial: 0, frame_id: 6
+[0811/202109:VERBOSE1:pref_proxy_config_tracker_impl.cc(218)] 000000002D818B40: set chrome proxy config service to 000000002D81BCA0
+[0811/202109:VERBOSE1:pref_proxy_config_tracker_impl.cc(355)] 000000002D818B40: Done pushing proxy to UpdateProxyConfig
+[0811/202109:VERBOSE1:webrtc_internals.cc(58)] Could not get the download directory.
+[0811/202109:ERROR:browser_gpu_channel_host_factory.cc(133)] Failed to com.erp.launch GPU process.
+[0811/202109:ERROR:browser_gpu_channel_host_factory.cc(133)] Failed to com.erp.launch GPU process.
+[0811/202109:INFO:CONSOLE(19)] "native ok", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/_native_imp.js (19)
+[0811/202109:INFO:CONSOLE(308)] "JNB ok", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/_native.js (308)
+[0811/202109:INFO:CONSOLE(13)] "TypeError: native.getData is not a function", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/js/chunk-vendors.d5253bc8.js (13)
+[0811/202109:INFO:CONSOLE(1)] "Unhandled promise rejection", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/js/chunk-vendors.d5253bc8.js (1)
+[0811/202110:INFO:CONSOLE(1)] "[object Object]", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/js/chunk-4c4ab891.0e61c6ca.js (1)
+[0811/202110:INFO:CONSOLE(1)] "[object Object]", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/js/chunk-4c4ab891.0e61c6ca.js (1)
+[0811/211344:VERBOSE1:pref_proxy_config_tracker_impl.cc(218)] 000000002DFE1B90: set chrome proxy config service to 000000002E03D6D0
+[0811/211344:VERBOSE1:pref_proxy_config_tracker_impl.cc(355)] 000000002DFE1B90: Done pushing proxy to UpdateProxyConfig
+[0811/211344:ERROR:browser_gpu_channel_host_factory.cc(133)] Failed to com.erp.launch GPU process.
+[0811/211344:VERBOSE1:webrtc_internals.cc(58)] Could not get the download directory.
+[0811/211344:ERROR:browser_gpu_channel_host_factory.cc(133)] Failed to com.erp.launch GPU process.
+[0811/211344:INFO:CONSOLE(21)] "native ok", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/_native_imp.js (21)
+[0811/211344:INFO:CONSOLE(308)] "JNB ok", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/_native.js (308)
+[0811/211344:INFO:CONSOLE(13)] "TypeError: native.getData is not a function", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/js/chunk-vendors.d5253bc8.js (13)
+[0811/211344:INFO:CONSOLE(1)] "Unhandled promise rejection", source: file:///C:/IDEAWORK/erp-client/src/main/resources/dist/js/chunk-vendors.d5253bc8.js (1)
