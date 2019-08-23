@@ -215,8 +215,8 @@ public class CEFHandler implements CefAppHandler {
         settings.ignore_certificate_errors = true;
         settings.cache_path = ROOT_PATH+"/store/cache";
         settings.log_file = ROOT_PATH+"/store/log";
-        settings.log_severity = CefSettings.LogSeverity.LOGSEVERITY_VERBOSE;
-//        settings.log_severity = CefSettings.LogSeverity.LOGSEVERITY_INFO;
+//        settings.log_severity = CefSettings.LogSeverity.LOGSEVERITY_VERBOSE;
+        settings.log_severity = CefSettings.LogSeverity.LOGSEVERITY_INFO;
         settings.remote_debugging_port = 9999;
         settings.uncaught_exception_stack_size = 10;
         settings.persist_session_cookies = true;

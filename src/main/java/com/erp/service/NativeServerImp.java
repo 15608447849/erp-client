@@ -27,17 +27,14 @@ public class NativeServerImp extends IBridgeImp {
 
     private static String DEVID = UUID.randomUUID().toString();
 
-    public static NativeServerImp create(){
-        initServerCommunication();
+    public static NativeServerImp create(IceClient client){
+        initServerCommunication(client);
         return getInstance();
     }
 
     //设置,连接服务器
-    private static void initServerCommunication() {
-        String tag = "DemoIceGrid";
-        String address = "114.116.155.221:4061";
-        String args = "idleTimeOutSeconds=300,--Ice.MessageSizeMax=4096";
-        launchICE(new IceClient(tag,address,args));
+    private static void initServerCommunication(IceClient client) {
+        launchICE(client);
     }
 
     private static void destroyICE() {
