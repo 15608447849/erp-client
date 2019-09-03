@@ -2,6 +2,8 @@ package framework.jsbridge;
 
 
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.HashMap;
 
 import bottle.threadpool.IOThreadPool;
@@ -13,17 +15,40 @@ import bottle.util.GsonUtils;
  */
 public class JSInterface implements IJsBridge {
 
+    private static final StringBuilder native_js_content = new StringBuilder();
+
+    static {
+        initNativeInterfaceJs("_native_core.js");
+        initNativeInterfaceJs("_native_bridge.js");
+    }
+
+    private static void initNativeInterfaceJs(String jsFile) {
+        try(InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream(jsFile);){
+            if (is!=null){
+                byte[] bytes = new byte[100];
+                int len;
+                while ( (len = is.read(bytes) ) > 0 ){
+                    native_js_content.append(new String(bytes,0,len));
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public String JsFile() {
+        return native_js_content.toString();
+    }
+
     public  interface CallJsSender{
         void executeJs(String js);
     }
 
-    private static final String NAME = "native";
-
     private final static String JAVA_SCRIPT = "javascript:";
 
-    private final static String JS_INTERFACE_INVOKE_NAME = JAVA_SCRIPT + "JNB._invoke('%s','%s','%s')";// invoke js function
+    private final static String JS_INTERFACE_INVOKE_NAME = JAVA_SCRIPT + "jsBridge._invoke('%s','%s','%s')";// invoke js function
 
-    private final static String JS_INTERFACE_NAME = JAVA_SCRIPT + "JNB._callbackInvoke('%s','%s')";// js callback function
+    private final static String JS_INTERFACE_NAME = JAVA_SCRIPT + "jsBridge._callbackInvoke('%s','%s')";// js callback function
 
     private IBridgeImp hImp;
 
@@ -112,7 +137,7 @@ public class JSInterface implements IJsBridge {
 
     // 主动调用js方法
     @Override
-    public void requestJs(final String method, final String data, IJsBridge.JSCallback callback){
+    public void requestJs(final String method, final String data, JSCallback callback){
         String callbackId = null;
         if (callback!=null){
             callbackId = "java_callback_"+System.currentTimeMillis();
@@ -136,7 +161,7 @@ public class JSInterface implements IJsBridge {
     private void callbackInvoke(String callback_id,String data){
         try {
 
-            IJsBridge.JSCallback callback = jsCallbackMap.remove(callback_id);
+            JSCallback callback = jsCallbackMap.remove(callback_id);
             if (callback==null) throw new Exception(callback_id + " callback function doesn\'t exist!");
             callback.callback(data);
         } catch (Exception e) {

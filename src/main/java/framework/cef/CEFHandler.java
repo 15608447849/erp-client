@@ -13,9 +13,13 @@ import org.cef.browser.CefFrame;
 import org.cef.callback.*;
 import org.cef.handler.*;
 import org.cef.misc.BoolRef;
+import org.cef.network.CefRequest;
 
 import java.awt.*;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.net.URL;
 
@@ -25,15 +29,19 @@ import java.net.URL;
  * cef 实现的浏览器
  */
 public class CEFHandler{
+    private static String  ROOT_PATH ;
+
+    private static CefApp cefApp;
 
     static {
         boolean isLiunx = OS.isLinux();
         if (isLiunx) throw new RuntimeException("请运行在windows系统");
         dynamicDllLoad();
         initCefApp();
+
+
     }
 
-    private static String  ROOT_PATH ;
     /* 加载库文件 */
     private static void dynamicDllLoad(){
         try{
@@ -68,13 +76,6 @@ public class CEFHandler{
         }
 
     }
-
-    //空白页
-//    private static final String BLANK_URL = "about:blank";
-    private static final String BLANK_URL = "http://www.baidu.com";
-
-    private static CefApp cefApp;
-
 
     /* 初始化CEF APP 设置 */
     private static CefSettings initCefAppSetting() {
@@ -184,6 +185,13 @@ public class CEFHandler{
         client.addLoadHandler(new CefLoadHandlerAdapter() {
 
             @Override
+            public void onLoadStart(CefBrowser cefBrowser, CefFrame cefFrame, CefRequest.TransitionType transitionType) {
+                Log4j.info(Thread.currentThread() + " 开始加载 " + cefBrowser.getURL() +" "+transitionType);
+                browser.executeJavaScript(jsBridge.JsFile(),null,0);
+                super.onLoadStart(cefBrowser, cefFrame, transitionType);
+            }
+
+            @Override
             public void onLoadError(CefBrowser cefBrowser, CefFrame cefFrame, ErrorCode errorCode, String s, String s1) {
                 Log4j.info(Thread.currentThread() + " 加载错误 " + cefBrowser.getURL() +" "+errorCode);
                 if (errorCode == ErrorCode.ERR_ABORTED || errorCode == ErrorCode.ERR_NONE) return;
@@ -211,7 +219,7 @@ public class CEFHandler{
 
             @Override
             public boolean onConsoleMessage(CefBrowser cefBrowser, CefSettings.LogSeverity logSeverity,String message, String source, int line) {
-//                Log4j.info(Thread.currentThread()  + "控制台日志打印:\n"+ message);
+                Log4j.info(Thread.currentThread()  + "控制台日志打印:\t"+ message);
                 return true;
 //                return super.onConsoleMessage(cefBrowser, message, source, line);
             }
