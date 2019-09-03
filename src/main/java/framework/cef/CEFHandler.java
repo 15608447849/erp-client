@@ -8,6 +8,7 @@ import org.cef.CefClient;
 import org.cef.CefSettings;
 import org.cef.OS;
 import org.cef.browser.CefBrowser;
+import org.cef.browser.CefFrame;
 import org.cef.callback.*;
 import org.cef.handler.*;
 import org.cef.misc.BoolRef;
@@ -133,16 +134,19 @@ public class CEFHandler implements CefAppHandler {
 
     private void initClient() {
         client.addLoadHandler(new CefLoadHandlerAdapter() {
+
             @Override
-            public void onLoadError(CefBrowser cefBrowser, int i, ErrorCode errorCode, String s, String s1) {
+            public void onLoadError(CefBrowser cefBrowser, CefFrame cefFrame, ErrorCode errorCode, String s, String s1) {
                 Log4j.info(Thread.currentThread() + " 加载错误 " + cefBrowser.getURL() +" "+errorCode);
                 cefBrowser.reload();
             }
         });
 
         client.addJSDialogHandler(new CefJSDialogHandlerAdapter() {
+
+
             @Override
-            public boolean onJSDialog(CefBrowser cefBrowser, String origin_url, String accept_lang, JSDialogType jsDialogType, String message_text, String default_prompt_text, CefJSDialogCallback cefJSDialogCallback, BoolRef boolRef) {
+            public boolean onJSDialog(CefBrowser cefBrowser, String origin_url, JSDialogType jsDialogType, String message_text, String default_prompt_text, CefJSDialogCallback cefJSDialogCallback, BoolRef boolRef) {
                 if (jsBridge != null){
                     if (jsBridge.handle(message_text)){
                         Log4j.info(Thread.currentThread() + " 弹窗内容: "+ message_text);
@@ -150,13 +154,14 @@ public class CEFHandler implements CefAppHandler {
                         return true;
                     }
                 }
-               return super.onJSDialog(cefBrowser, origin_url, accept_lang, jsDialogType, message_text, default_prompt_text, cefJSDialogCallback, boolRef);
+               return super.onJSDialog(cefBrowser, origin_url, jsDialogType, message_text, default_prompt_text, cefJSDialogCallback, boolRef);
             }
         });
 
         client.addDisplayHandler(new CefDisplayHandlerAdapter() {
+
             @Override
-            public boolean onConsoleMessage(CefBrowser cefBrowser, String message, String source, int line) {
+            public boolean onConsoleMessage(CefBrowser cefBrowser, CefSettings.LogSeverity logSeverity,String message, String source, int line) {
                 Log4j.info(Thread.currentThread()  + "控制台日志打印:\n"+ message);
                 return true;
 //                return super.onConsoleMessage(cefBrowser, message, source, line);
@@ -186,24 +191,20 @@ public class CEFHandler implements CefAppHandler {
         });
 
         client.addContextMenuHandler(new CefContextMenuHandlerAdapter() {
+
+
             @Override
-            public void onBeforeContextMenu(CefBrowser cefBrowser, CefContextMenuParams cefContextMenuParams, CefMenuModel cefMenuModel) {
+            public void onBeforeContextMenu(CefBrowser cefBrowser,CefFrame cefFrame, CefContextMenuParams cefContextMenuParams, CefMenuModel cefMenuModel) {
                 cefMenuModel.clear(); //去除菜单栏
             }
         });
 
         client.addLifeSpanHandler(new CefLifeSpanHandlerAdapter() {
             @Override
-            public boolean onBeforePopup(CefBrowser cefBrowser, String target_url, String target_frame_name) {
+            public boolean onBeforePopup(CefBrowser cefBrowser, CefFrame cefFrame, String target_url, String target_frame_name) {
                 Log4j.info("onBeforePopup  target_url: " + target_url +" , target_frame_name: " + target_frame_name);
-//                JFrame jFrame = new JFrame();
-//
-//                    jFrame.setSize(100,100);
-//                    jFrame.setTitle(target_url);
-//                jFrame.setVisible(true);
-
                 return true;
-//                return super.onBeforePopup(cefBrowser, s, s1);
+//                return super.onBeforePopup(cefBrowser, cefFrame, target_url, target_frame_name);
             }
         });
     }
@@ -237,7 +238,7 @@ public class CEFHandler implements CefAppHandler {
                 client.dispose();
                 client.doClose(browser);
                 client.onBeforeClose(browser);
-                browser.close();
+//                browser.close();
                 browser = null;
                 client = null;
                 cefApp = null;
@@ -275,6 +276,11 @@ public class CEFHandler implements CefAppHandler {
     public CefPrintHandler getPrintHandler() {
         Log4j.info("CEF - getPrintHandler");
         return null;
+    }
+
+    @Override
+    public void onScheduleMessagePumpWork(long l) {
+        Log4j.info("CEF - onScheduleMessagePumpWork - "+ l);
     }
 
 }
