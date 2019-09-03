@@ -9,6 +9,8 @@ import java.awt.*;
 public class SwingUtil {
     private SwingUtil(){}
 
+    public static boolean isDebug = false;
+
     public static Dimension getScreenSize(Window window) {
         Dimension screensize = Toolkit.getDefaultToolkit().getScreenSize();
         int w = screensize.width;

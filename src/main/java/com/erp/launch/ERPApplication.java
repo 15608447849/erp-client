@@ -3,7 +3,7 @@ import bottle.util.Log4j;
 import com.erp.service.NativeServerImp;
 import com.onek.client.IceClient;
 import framework.cef.CEFHandler;
-import framework.cef.CEFWindow;
+import framework.cef.CEFSwingWindow;
 import framework.jsbridge.JSInterface;
 import properties.abs.ApplicationPropertiesBase;
 import properties.annotations.PropertiesFilePath;
@@ -30,11 +30,8 @@ public class ERPApplication extends ApplicationPropertiesBase {
     public static void main(String[] args) {
         ApplicationPropertiesBase.initStaticFields(ERPApplication.class);
         Log4j.info(URL);
-        NativeServerImp serverImp = NativeServerImp.create(new IceClient(iceGridTag,iceRegAddress,iceArgs));
-        JSInterface jsInterface = new JSInterface();
-        jsInterface.setIBridgeImp(serverImp);
-        CEFHandler imp = new CEFHandler(URL,jsInterface);
-        CEFWindow.execute(imp);
+        CEFSwingWindow.setJsBridge( NativeServerImp.create(new IceClient(iceGridTag,iceRegAddress,iceArgs)));
+        CEFSwingWindow.executeUrl(URL);
     }
 
 }

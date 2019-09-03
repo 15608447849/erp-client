@@ -29,6 +29,12 @@ public class JSInterface implements IJsBridge {
 
     private CallJsSender sender;
 
+    public JSInterface() { }
+
+    public JSInterface(IBridgeImp hImp) {
+        setIBridgeImp(hImp);
+    }
+
     public void setCallJsSender(CallJsSender sender) {
         this.sender = sender;
     }

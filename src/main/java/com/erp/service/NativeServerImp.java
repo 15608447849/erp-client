@@ -21,7 +21,7 @@ public class NativeServerImp extends IBridgeImp {
 
     private static final NativeServerImp INSTANCE = new NativeServerImp();
 
-    private static NativeServerImp getInstance(){ return INSTANCE;};
+    public static NativeServerImp getInstance(){ return INSTANCE;};
 
     private static IceClient ic = null;
 
